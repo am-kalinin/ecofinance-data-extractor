@@ -30,7 +30,6 @@ def read_col(col):
 agentlist=read_col('A')
 statuses=read_col('B')
 mini56list=read_col('I')
-print (mini56list)
 
 #print (statuses)
 bucket1begin, bucket1end=ws['c2'].value.split()[0].split('-')
